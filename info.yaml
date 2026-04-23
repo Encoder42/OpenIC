@@ -26,8 +26,8 @@ pinout:
   ui[7]: "OUT_EN"
 
   # Outputs
-  uo[0]: "LOAD"
-  uo[1]: "OUT_EN"
+  uo[0]: "OUT_EN"
+  uo[1]: "LOAD"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
