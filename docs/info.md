@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Loads "PSI Open IC 2026" into a shift register and clocks it out to the UART_TX pin
 
 ## How to test
 
-Explain how to use your project
+set LOAD HIGH and provide CLK
+set LOAD LOW to clock out to TX
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Clock Generator
+UART Receiver
