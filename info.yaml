@@ -6,7 +6,7 @@ project:
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Simple UART Transmitter"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     300       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -17,23 +17,23 @@ project:
 pinout:
   # Inputs
   ui[0]: "CLK"
-  ui[1]: ""
-  ui[2]: ""
+  ui[1]: "LOAD"
+  ui[2]: "OUT_EN"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
-  ui[6]: "LOAD"
-  ui[7]: "OUT_EN"
+  ui[6]: ""
+  ui[7]: ""
 
   # Outputs
   uo[0]: "OUT_EN"
   uo[1]: "LOAD"
-  uo[2]: ""
+  uo[2]: "UART_TX"
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: "UART_TX"
+  uo[7]: ""
 
   # Bidirectional pins
   uio[0]: ""
