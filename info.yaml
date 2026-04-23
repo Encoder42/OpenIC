@@ -26,14 +26,14 @@ pinout:
   ui[7]: "OUT_EN"
 
   # Outputs
-  uo[0]: "UART_TX"
-  uo[1]: ""
+  uo[0]: "LOAD"
+  uo[1]: "OUT_EN"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: ""
+  uo[7]: "UART_TX"
 
   # Bidirectional pins
   uio[0]: ""
