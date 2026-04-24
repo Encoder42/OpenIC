@@ -13,8 +13,8 @@ Loads "PSI Open IC 2026" into a shift register and clocks it out to the UART_TX 
 
 ## How to test
 
-set LOAD HIGH and provide CLK
-set LOAD LOW to clock out to TX
+set RST_N low and provide CLK
+set RST_N high to clock out to UART_TX pin
 
 ## External hardware
 
